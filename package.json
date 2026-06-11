@@ -1,0 +1,26 @@
+{
+  "name": "stord",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Audit + undo for AI agent file operations — every file your agents touch: audited, reversible",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "stord": "./bin/stord.mjs"
+  },
+  "scripts": {
+    "test": "node test/smoke.test.mjs"
+  },
+  "keywords": [
+    "ai-agents",
+    "audit",
+    "undo",
+    "claude-code",
+    "codex",
+    "agent-security",
+    "flight-recorder"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
