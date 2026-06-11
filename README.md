@@ -1,4 +1,4 @@
-# stord
+# stordai
 
 **The flight recorder + undo button for AI agents.**
 
@@ -29,7 +29,8 @@ One Node file. **Zero dependencies.** Your real git repo is never touched.
 ## Install
 
 ```bash
-git clone <this-repo> && cd stord && npm link    # `stord` now works anywhere
+git clone https://github.com/ishwantsingh/stordai && cd stordai
+npm link                                  # the `stord` command now works anywhere
 cd your-project
 stord enable
 ```
