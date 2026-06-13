@@ -1,5 +1,5 @@
 {
-  "name": "stord",
+  "name": "stordai",
   "version": "0.1.0",
   "description": "Audit + undo for AI agent file operations — every file your agents touch: audited, reversible",
   "type": "module",

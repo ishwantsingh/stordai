@@ -29,7 +29,7 @@ One Node file. **Zero dependencies.** Your real git repo is never touched.
 ## Install
 
 ```bash
-npm install -g stord          # the `stord` command now works anywhere
+npm install -g stordai        # the `stord` command now works anywhere
 cd your-project
 stord enable
 ```
