@@ -29,10 +29,15 @@ One Node file. **Zero dependencies.** Your real git repo is never touched.
 ## Install
 
 ```bash
-git clone https://github.com/ishwantsingh/stordai && cd stordai
-npm link                                  # the `stord` command now works anywhere
+npm install -g stord          # the `stord` command now works anywhere
 cd your-project
 stord enable
+```
+
+Or run from source:
+
+```bash
+git clone https://github.com/ishwantsingh/stordai && cd stordai && npm link
 ```
 
 Requires Node ≥ 18 and git ≥ 2.30.
