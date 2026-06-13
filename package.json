@@ -13,7 +13,7 @@
     "url": "https://github.com/ishwantsingh/stordai/issues"
   },
   "bin": {
-    "stord": "./bin/stord.mjs"
+    "stord": "bin/stord.mjs"
   },
   "files": [
     "bin/",
