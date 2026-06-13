@@ -24,7 +24,7 @@ $ stord undo db4890e7a9
 
 One Node file. **Zero dependencies.** Your real git repo is never touched.
 
-![stord demo: an agent reads .env and rm -rfs build/, stord log shows who did what, stord undo brings it back](demo.gif)
+![stord demo: an agent reads .env and rm -rfs build/, stord log shows who did what, stord undo brings it back](https://raw.githubusercontent.com/ishwantsingh/stordai/main/demo.gif)
 
 ## Install
 

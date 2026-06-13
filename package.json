@@ -1,18 +1,25 @@
 {
   "name": "stordai",
   "version": "0.1.0",
-  "private": true,
   "description": "Audit + undo for AI agent file operations — every file your agents touch: audited, reversible",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ishwantsingh/stordai.git"
+    "url": "git+https://github.com/ishwantsingh/stordai.git"
   },
   "homepage": "https://stordai.com",
+  "bugs": {
+    "url": "https://github.com/ishwantsingh/stordai/issues"
+  },
   "bin": {
     "stord": "./bin/stord.mjs"
   },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "node test/smoke.test.mjs"
   },
