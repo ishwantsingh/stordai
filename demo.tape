@@ -4,12 +4,12 @@
 Output demo.gif
 
 Set Shell "bash"
-Set FontSize 15
-Set Width 1100
-Set Height 620
-Set Padding 16
+Set FontSize 16
+Set Width 1120
+Set Height 640
+Set Padding 18
 Set Theme "Catppuccin Mocha"
-Set TypingSpeed 40ms
+Set TypingSpeed 38ms
 
 Hide
 Type `export PATH="$HOME/.local/bin:$PATH"; unset STORD_AGENT`
@@ -36,18 +36,26 @@ Type "clear"
 Enter
 Show
 
-Sleep 500ms
+# 1. The evidence — what your agents read and destroyed, attributed
+Sleep 700ms
 Type "stord log --reads"
-Sleep 300ms
+Sleep 400ms
 Enter
-Sleep 4s
+Sleep 4.5s
 
+# 2. The payoff — one command brings the deleted files back
 Type "stord undo last"
-Sleep 300ms
+Sleep 400ms
 Enter
 Sleep 3s
 
 Type "ls build/"
-Sleep 300ms
+Sleep 400ms
 Enter
-Sleep 3.5s
+Sleep 2.5s
+
+# 3. The summary — who touched your files (incl. the one that read .env)
+Type "stord agents"
+Sleep 400ms
+Enter
+Sleep 5s
